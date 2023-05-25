@@ -43,3 +43,38 @@ nav{
     display: inline-block;
     float: right;
 }
+
+.menu button {
+    font-size: 16px;
+    font-weight: 500;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #2B7DDD;
+    border-radius: 10px 10px 10px 10px;
+    padding: 18px 32px 18px 32px;
+    margin-top: -20px;
+    border: none;
+}
+
+.section{
+    font-size: 30px;
+    margin-left: 90px;
+}
+.section span{
+    color: blue;
+}
+
+.section p{
+    display: inline-block;
+    font-size: small;
+}
+
+.container{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.container img{
+    margin-left: 500px;
+    margin-top: -348px;
+
+}

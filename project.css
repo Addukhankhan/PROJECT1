@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #ECEDF2;
+    box-shadow: 0px 6px 15px 0px rgba(64.00000000000001, 79.00000000000006, 104.00000000000004, 0.06);
+   
+    padding: 15px 0px 5px 0px;
+}
+
+
+.logo {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.menu ul li {
+    display: inline-block;
+
+}
+
+.menu {
+    display: inline-block;
+    
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.menu ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+
+}
+.btn{
+    display: inline-block;
+    float: right;
+}

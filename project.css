@@ -1,6 +1,6 @@
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 nav{
     
@@ -85,6 +85,9 @@ nav{
     display: inline-block;
     width: 100%;
     margin-top: 150px;
+    background-image: url("https://techpaathshala.com/wp-content/uploads/2022/11/background101.svg");
+    background-repeat: no-repeat;
+    background-position:top right ;
 
 }
 
@@ -141,4 +144,116 @@ border-style: solid;
     border-radius: 10px;
     background-color: #2B7DDD;
     color: white;
+}
+
+
+/*footer*/
+
+
+.footer{
+    
+    margin-bottom: 40px;
+   
+    
+    
+}
+
+
+.footer-section{
+    display: inline-block;
+    
+    width: 50%;
+}
+
+
+
+.techpaathshaala-logo{
+    padding-left: 32px;
+    margin-top: 61px;
+    height: 70px;
+}
+
+
+.techpaathshaala-social{
+    padding-left: 30px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.techpaathshaala-social a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+.techpaathshaala-social  :hover{
+    color: #2B7DDD;
+}
+
+.techpaathshaala-social-icons{
+
+   display: inline-block;
+   float: right;
+    width: 50%;
+    
+
+}
+
+.techpaathshaala-social-icons li{
+
+    margin-right: 25px;
+   
+    list-style-type: none;
+    
+}
+
+.techpaathshaala-social-icons ul li{
+
+    display: inline-block;
+ 
+    list-style-type: none;
+    
+}
+
+.techpaathshaala-social-heading{
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+
+.end-section{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    font-size: 15px;
+
+}
+
+.chat-button{
+    
+    align-items: center;
+    display: flex;
+    background-color: rgb(61, 192, 10);
+    padding: 10px;
+    border-style: none;
+    border-radius: 20px;
+    width: 180px;
+   
+   
+    
+
+}
+
+.chat-button a{
+    text-decoration: none;
+    color: white;
+    padding-left: 8px;
+}
+
+.chat-button1{
+    display: inline-block;
+    float: right;
+    margin-bottom: 20px;
 }
